@@ -612,7 +612,7 @@ section h3 {
       rgba(5, 20, 45, 0.55) 55%,
       rgba(5, 20, 45, 0.15) 100%
     ),
-    url("изображения/digital-city.png.png") center / cover no-repeat;
+    url("images/digital-city.png.png") center / cover no-repeat;
 
   display: flex;
   flex-direction: column;
