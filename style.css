@@ -634,3 +634,59 @@ section h3 {
     background-position: 58% center;
   }
 }
+/* DIGITAL QOGAM — Hero дизайн */
+
+.hero {
+  align-items: flex-start;
+  padding: 90px 8%;
+  gap: 22px;
+}
+
+.hero h1 {
+  max-width: 850px;
+  margin: 0;
+  font-size: clamp(42px, 5vw, 76px);
+  line-height: 1.12;
+  letter-spacing: -1.5px;
+}
+
+.hero p {
+  max-width: 760px;
+  margin: 0;
+  font-size: clamp(17px, 1.5vw, 22px);
+  line-height: 1.7;
+}
+
+/* Басты беттегі батырма */
+
+.hero .btn,
+.hero a.btn,
+.hero button {
+  width: fit-content;
+  max-width: 100%;
+  padding: 17px 32px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #21d4e8, #0a9de0);
+  color: #062341;
+  font-weight: 700;
+  box-shadow: 0 8px 30px rgba(0, 200, 255, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero .btn:hover,
+.hero a.btn:hover,
+.hero button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 35px rgba(0, 200, 255, 0.45);
+}
+
+@media (max-width: 650px) {
+  .hero {
+    padding: 70px 6%;
+    min-height: 580px;
+  }
+
+  .hero h1 {
+    letter-spacing: -0.5px;
+  }
+}
