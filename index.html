@@ -1,0 +1,465 @@
+
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIGITAL QOGAM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h2>DIGITAL QOGAM</h2>
+    
+<nav>
+  <a href="#home">Басты бет</a>
+  <a href="#theory">Теория</a>
+  <a href="#research">Зерттеу</a>
+  <a href="#statistics">Статистика</a>
+  <a href="#solution">Біздің шешіміміз</a>
+  <a href="#simulator">Симулятор</a>
+  <a href="#methodology">Дереккөздер</a>
+  <a href="#ai-audit">AI аудиті</a>
+  <a href="#project-process">Жоба барысы</a>
+</nav>
+
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Цифрлық мемлекет баршаға бірдей ме?</h1>
+    <p>
+      Әлеуметтік мемлекет және цифрлық теңсіздік:
+      мемлекеттің әлеуметтік міндеттері қалай өзгереді?
+    </p>
+    <a href="#simulator" class="button">
+      Зерттеуді бастау
+    </a>
+  </section>
+
+  
+<section id="theory">
+  <h2>Әлеуметтік мемлекет және цифрландыру</h2>
+
+  <p>
+    Қазақстан Республикасы Конституциясының
+    1-бабына сәйкес Қазақстан — әлеуметтік мемлекет.
+    Мемлекеттің ең жоғары құндылығы — адам,
+    оның өмірі, құқықтары мен бостандықтары.
+  </p>
+
+  <div class="theory-highlight">
+    <h3>Біздің зерттеу гипотезамыз</h3>
+    <p>
+      Цифрландыру әлеуметтік мемлекеттің негізгі
+      мақсатын өзгертпейді, бірақ азаматтардың
+      әлеуметтік құқықтарын жүзеге асыру тәсілдеріне
+      жаңа талаптар қояды.
+    </p>
+  </div>
+
+  <h3>Не өзгермейді және не өзгереді?</h3>
+
+  <div class="theory-grid">
+    <div class="theory-card">
+      <h3>⚖️ Тұрақты қағидаттар</h3>
+      <p>Адам құқықтарының құндылығы</p>
+      <p>Әлеуметтік қорғау мақсаты</p>
+      <p>Әлеуметтік мемлекет қағидаты</p>
+    </div>
+
+    <div class="theory-card">
+      <h3>💻 Өзгеретін тәсілдер</h3>
+      <p>Цифрлық қызметтерді дамыту</p>
+      <p>Балама қызмет арналарын қарастыру</p>
+      <p>Цифрлық сауаттылықты қолдау</p>
+    </div>
+  </div>
+
+  <h3>Интерактивті теориялық талдау</h3>
+  <p>
+    Төмендегі ұғымды таңдаңыз.
+    Оның цифрлық мемлекет жағдайындағы
+    маңызын анықтаңыз.
+  </p>
+
+  <div class="theory-buttons">
+    <button onclick="showTheory('social')">
+      Әлеуметтік функция
+    </button>
+
+    <button onclick="showTheory('equality')">
+      Нақты қолжетімділік
+    </button>
+
+    <button onclick="showTheory('digital')">
+      Цифрландыру
+    </button>
+  </div>
+
+  <div id="theory-result" aria-live="polite"></div>
+
+  <p class="source">
+    Құқықтық негіз:
+    <a href="https://old.adilet.zan.kz/kaz/docs/K2600000000"
+       target="_blank" rel="noopener noreferrer">
+      ҚР Конституциясы, 1-бап
+    </a>
+  </p>
+</section>
+
+
+  <section id="research">
+    <h2>Цифрлық теңсіздік мәселесі</h2>
+    <p>
+      Интернет пен цифрлық технологияларға
+      қолжетімділік барлық азаматта бірдей емес.
+    </p>
+  </section>
+
+ 
+<
+<section id="statistics">
+  <h2>Қазақстандағы цифрлық теңсіздік</h2>
+
+  <p>
+    Цифрлық теңсіздік — азаматтардың интернетке,
+    технологияларға және цифрлық қызметтерге
+    қол жеткізу мүмкіндіктерінің әртүрлі болуы.
+  </p>
+
+  <h3>Қазақстандағы интернет пайдалану, 2024 жыл</h3>
+
+  <div class="stats-grid">
+    <div class="stat-card">
+      <h3>Қала тұрғындары</h3>
+      <div class="stat-number">94,4%</div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width:94.4%"></div>
+      </div>
+    </div>
+
+    <div class="stat-card">
+      <h3>Ауыл тұрғындары</h3>
+      <div class="stat-number">91,7%</div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width:91.7%"></div>
+      </div>
+    </div>
+  </div>
+
+  <p class="source">
+    Дереккөз:
+    <a href="https://datahub.itu.int/data/?e=KAZ"
+       target="_blank" rel="noopener noreferrer">
+      ITU DataHub — Kazakhstan, 2024
+    </a>
+  </p>
+
+  <button onclick="analyzeStatistics()">
+    Статистиканы талдау
+  </button>
+
+  <div id="stats-analysis" aria-live="polite"></div>
+</section>
+
+<section id="solution">
+  <h2>Біздің шешіміміз: DIGITAL QOGAM моделі</h2>
+
+  <p>
+    Біз цифрлық теңсіздік жағдайында әлеуметтік
+    құқықтарға қолжетімділікті бағалау үшін
+    төрт қадамдық зерттеу моделін ұсынамыз.
+  </p>
+
+  <div class="theory-highlight">
+    <h3>Цифрлық әлеуметтік қолжетімділіктің 4 қадамы</h3>
+    <p>
+      Кедергіні анықтау → Балама арнаны қарастыру →
+      Құқықтық кепілдікті тексеру → Нәтижені бағалау
+    </p>
+  </div>
+
+  <h3>Қандай цифрлық кедергі туындады?</h3>
+
+  <div class="model-buttons">
+    <button onclick="showSolution('internet')">
+      🌐 Интернет жоқ
+    </button>
+
+    <button onclick="showSolution('skills')">
+      📱 Цифрлық дағды жеткіліксіз
+    </button>
+
+    <button onclick="showSolution('interface')">
+      💻 Интерфейс түсініксіз
+    </button>
+
+    <button onclick="showSolution('device')">
+      🖥️ Құрылғы қолжетімсіз
+    </button>
+  </div>
+
+  <div id="solution-result" aria-live="polite"></div>
+
+</section>
+<section id="simulator">
+  <h2>Цифрлық теңсіздік симуляторы</h2>
+  <p>
+    Азаматты таңдаңыз және оның мемлекеттік
+    қызмет алу кезінде қандай қиындыққа
+    тап болатынын анықтаңыз.
+  </p>
+
+  <div class="simulator-cards">
+    <button onclick="showCase('pensioner')">
+      👵 Зейнеткер
+    </button>
+
+    <button onclick="showCase('village')">
+      🏡 Ауыл тұрғыны
+    </button>
+
+    <button onclick="showCase('student')">
+      🎓 Студент
+    </button>
+  </div>
+
+  <div id="result" aria-live="polite"></div>
+</section>
+
+
+ 
+<section id="methodology">
+  <h2>Зерттеу әдістемесі және дереккөздер</h2>
+
+  <p>
+    DIGITAL QOGAM — әлеуметтік мемлекет қағидаты
+    мен цифрлық теңсіздіктің байланысын зерттейтін
+    интерактивті оқу жобасы.
+  </p>
+
+  <div class="method-grid">
+    <div class="method-card">
+      <h3>📚 Теориялық талдау</h3>
+      <p>
+        Әлеуметтік мемлекет ұғымы, мемлекеттің
+        әлеуметтік функциясы және цифрландыру
+        жағдайындағы өзгерістер салыстырылды.
+      </p>
+    </div>
+
+    <div class="method-card">
+      <h3>📊 Статистикалық салыстыру</h3>
+      <p>
+        Қала мен ауыл тұрғындарының интернет
+        пайдалану көрсеткіштері салыстырылды.
+        Бұл көрсеткіш мемлекеттік қызметтердің
+        нақты қолжетімділігін толық өлшемейді.
+      </p>
+    </div>
+
+    <div class="method-card">
+      <h3>⚖️ Жағдаяттық модельдеу</h3>
+      <p>
+        Үш гипотетикалық азаматтың жағдайы
+        арқылы цифрлық кедергілер және ықтимал
+        мемлекеттік шешімдер талданды.
+      </p>
+    </div>
+
+    <div class="method-card">
+      <h3>💡 Авторлық ұсыныс</h3>
+      <p>
+        Цифрлық әлеуметтік қолжетімділіктің
+        төрт қадамдық аналитикалық моделі ұсынылды.
+      </p>
+    </div>
+  </div>
+
+  <h3>Пайдаланылған негізгі дереккөздер</h3>
+
+  <div class="references">
+    <p>
+      <strong>1. Қазақстан Республикасының Конституциясы.</strong>
+      Әлеуметтік мемлекет қағидаты.
+      <a href="https://adilet.zan.kz/kaz"
+         target="_blank" rel="noopener noreferrer">
+        Әділет құқықтық ақпарат жүйесі
+      </a>
+    </p>
+
+    <p>
+      <strong>2. International Telecommunication Union.</strong>
+      ITU DataHub — Қазақстанның цифрлық даму
+      көрсеткіштері.
+      <a href="https://datahub.itu.int/"
+         target="_blank" rel="noopener noreferrer">
+        ITU DataHub
+      </a>
+    </p>
+
+    <p>
+      <strong>3. Қазақстан Республикасының
+      электрондық үкіметі.</strong>
+      Мемлекеттік электрондық қызметтер.
+      <a href="https://egov.kz/"
+         target="_blank" rel="noopener noreferrer">
+        eGov.kz
+      </a>
+    </p>
+  </div>
+
+  <div class="research-note">
+    <h3>Зерттеу шектеулері</h3>
+    <p>
+      Симулятордағы кейіпкерлер мен жағдайлар
+      оқу мақсатында құрастырылған.
+      Олар нақты азаматтар туралы деректер емес.
+      Ұсынылған шешім моделі қолданыстағы
+      заңнаманың орнына жүрмейді.
+    </p>
+  </div>
+</section>
+ 
+<section id="ai-audit">
+  <h2>AI қолдану аудиті</h2>
+
+  <p>
+    Бұл жобаны әзірлеуде генеративті жасанды
+    интеллект көмекші құрал ретінде қолданылды.
+    Жобадағы құқықтық және статистикалық
+    тұжырымдар бөлек тексерілуі тиіс.
+  </p>
+
+  <div class="theory-highlight">
+    <h3>AI-2 қағидаты</h3>
+    <p>
+      Жасанды интеллект идеялар мен техникалық
+      шешімдер әзірлеуге көмектеседі.
+      Ал мазмұнның дұрыстығына және қорытындыға
+      жоба авторлары жауап береді.
+    </p>
+  </div>
+
+  <h3>Аудит журналын ашу</h3>
+
+  <div class="audit-buttons">
+    <button onclick="showAudit('planning')">
+      1. Жобаны жоспарлау
+    </button>
+
+    <button onclick="showAudit('coding')">
+      2. Сайтты әзірлеу
+    </button>
+
+    <button onclick="showAudit('checking')">
+      3. Тексеру және түзету
+    </button>
+  </div>
+
+  <div id="audit-result" aria-live="polite"></div>
+
+  <p class="source">
+    Ескерту: бұл бөлім аудиттің қысқаша көрінісі.
+    Нақты промттар, қабылданған және өзгертілген
+    нәтижелер тапсырылатын жеке аудит құжатында
+    көрсетіледі.
+  </p>
+</section>
+
+<section id="project-process">
+  <h2>Жобаның әзірлену барысы</h2>
+
+  <p>
+    Жұмыс барысында анықталған қателерді,
+    енгізілген түзетулерді және топ мүшелерінің
+    үлесін ашық көрсетеміз.
+  </p>
+
+  <h3>Қателер мен түзетулер журналы</h3>
+
+  <div class="process-grid">
+    <div class="process-card">
+      <h3>01. HTML құрылымындағы қате</h3>
+      <p>
+        <strong>Мәселе:</strong>
+        Симулятор бөліміне өту жұмыс істемеді.
+        Экранда HTML тегінің мәтіні көрінді.
+      </p>
+      <p>
+        <strong>Түзету:</strong>
+        section тегінің ашылуы дұрысталып,
+        навигация қайта тексерілді.
+      </p>
+      <p>
+        <strong>Нәтиже:</strong>
+        Симуляторға өту қалпына келді.
+      </p>
+    </div>
+
+    <div class="process-card">
+      <h3>02. Екінші түзету</h3>
+      <p>
+        Екінші нақты, мазмұнды қате
+        анықталып түзетілгеннен кейін
+        осы жерге енгізіледі.
+      </p>
+      <p>
+        <strong>Мәртебесі:</strong>
+        Құжатталуы қажет.
+      </p>
+    </div>
+  </div>
+
+  <h3>Команданың жеке үлесі</h3>
+
+  <div class="process-grid">
+    <div class="process-card">
+      <h3>1-қатысушы</h3>
+      <p>Аты-жөні: толтырылады</p>
+      <p>Нақты орындалған жұмыс: толтырылады</p>
+      <p>Дәлел: файл, скриншот немесе жұмыс тарихы</p>
+    </div>
+
+    <div class="process-card">
+      <h3>2-қатысушы</h3>
+      <p>Аты-жөні: толтырылады</p>
+      <p>Нақты орындалған жұмыс: толтырылады</p>
+      <p>Дәлел: файл, скриншот немесе жұмыс тарихы</p>
+    </div>
+
+    <div class="process-card">
+      <h3>3-қатысушы</h3>
+      <p>Аты-жөні: толтырылады</p>
+      <p>Нақты орындалған жұмыс: толтырылады</p>
+      <p>Дәлел: файл, скриншот немесе жұмыс тарихы</p>
+    </div>
+  </div>
+
+  <p class="source">
+    Ескерту: жеке үлес тек нақты орындалған
+    жұмыс пен растайтын материалдар негізінде
+    толтырылады.
+  </p>
+</section>
+
+<footer class="site-footer">
+  <h2>DIGITAL QOGAM</h2>
+
+  <p>
+    Әлеуметтік мемлекет және цифрлық теңсіздік:
+    мемлекеттің әлеуметтік міндеттері қалай өзгереді?
+  </p>
+
+  <p>
+    Мемлекет және құқық теориясы пәні
+  </p>
+
+  <p class="footer-copy">
+    2026 · Оқу-зерттеу жобасы
+  </p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
