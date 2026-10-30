@@ -1088,7 +1088,33 @@ section#statistics .stat-card .progress-bar {
   #simulator #result {
     padding: 22px 18px;
   }
+/* Simulator result — final color fix */
 
+section#simulator div#result {
+  background: #17365c !important;
+  background-color: #17365c !important;
+  color: #ffffff !important;
+  padding: 28px !important;
+  border-radius: 18px !important;
+  min-height: 0 !important;
+}
+
+section#simulator div#result h3,
+section#simulator div#result h4 {
+  color: #ffffff !important;
+}
+
+section#simulator div#result p {
+  color: #e0efff !important;
+}
+
+section#simulator div#result strong {
+  color: #ffffff !important;
+}
+
+section#simulator div#result:empty {
+  display: none !important;
+} 
   #simulator #result h3 {
     font-size: 22px;
   }
