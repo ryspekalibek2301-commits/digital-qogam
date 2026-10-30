@@ -880,3 +880,45 @@ section#statistics .stat-card .progress-fill {
     padding: 26px;
   }
 } 
+/* DIGITAL QOGAM — Compact Dashboard */
+
+section#statistics .stats-grid {
+  gap: 20px;
+  max-width: 1050px;
+  margin: 24px auto 30px;
+}
+
+section#statistics .stats-grid .stat-card {
+  padding: 24px 28px !important;
+  border-radius: 18px;
+  min-height: 0;
+}
+
+section#statistics .stat-card h3 {
+  font-size: 17px;
+  margin: 0 0 14px;
+}
+
+section#statistics .stat-card .stat-number {
+  font-size: 44px !important;
+  margin: 0 0 18px;
+  line-height: 1.1;
+}
+
+section#statistics .stat-card .progress-bar {
+  height: 8px;
+}
+
+@media (max-width: 700px) {
+  section#statistics .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  section#statistics .stats-grid .stat-card {
+    padding: 22px !important;
+  }
+
+  section#statistics .stat-card .stat-number {
+    font-size: 38px !important;
+  }
+} 
