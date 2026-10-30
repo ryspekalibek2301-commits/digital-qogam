@@ -149,7 +149,7 @@ section p {
 }
 
 #result:not(:empty) {
-  background: white;
+  background: #17365c;
   border: 1px solid #d7e5f5;
   border-left: 5px solid #1766b0;
   padding: 25px;
