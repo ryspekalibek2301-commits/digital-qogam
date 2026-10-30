@@ -1001,3 +1001,95 @@ section#statistics .stat-card .progress-bar {
     font-size: 38px !important;
   }
 } 
+/* DIGITAL QOGAM — Simulator Result Panel */
+
+#simulator #result {
+  margin-top: 28px;
+  padding: 28px 32px;
+  background: linear-gradient(145deg, #17365c, #1d4975);
+  color: #ffffff;
+  border: 1px solid rgba(85, 211, 255, 0.3);
+  border-radius: 20px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+/* Бос кезде панель көрінбейді */
+#simulator #result:empty {
+  display: none;
+}
+
+#simulator #result h3 {
+  color: #ffffff;
+  font-size: 26px;
+  margin: 0 0 18px;
+}
+
+#simulator #result p {
+  color: #dcecff;
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 0 0 20px;
+}
+
+#simulator #result strong {
+  color: #ffffff;
+}
+
+#simulator #result h4 {
+  color: #ffffff;
+  font-size: 19px;
+  margin: 20px 0;
+}
+
+#simulator #result .choice-buttons {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+#simulator #result .choice-buttons button {
+  display: block;
+  width: 100%;
+  min-height: 0;
+  padding: 16px 20px;
+  background: #254f7b;
+  color: #ffffff;
+  border: 1px solid #426d98;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+#simulator #result .choice-buttons button:hover {
+  background: #3271a7;
+  transform: translateX(4px);
+}
+
+#simulator #result .choice-buttons button:focus-visible {
+  outline: 3px solid #40e4f2;
+  outline-offset: 3px;
+}
+
+#simulator #feedback {
+  color: #ffffff;
+  line-height: 1.7;
+}
+
+#simulator #feedback:empty {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  #simulator #result {
+    padding: 22px 18px;
+  }
+
+  #simulator #result h3 {
+    font-size: 22px;
+  }
+} 
