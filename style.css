@@ -181,8 +181,9 @@ section p {
 .feedback-box {
   margin-top: 25px;
   padding: 20px;
-  background: #eef8ff;
-  border-left: 5px solid #1766b0;
+  background: #214c73;
+  color: #ffffff;
+  border-left: 5px solid #31d8e8;
   border-radius: 12px;
   animation: appear 0.3s ease;
 }
