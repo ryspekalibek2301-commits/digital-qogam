@@ -1089,6 +1089,7 @@ section#statistics .stat-card .progress-bar {
   #simulator #result {
     padding: 22px 18px;
   }
+}
 /* Simulator result — final color fix */
 
 section#simulator div#result {
