@@ -839,7 +839,8 @@ section h3 {
 @media (max-width: 700px) {
   #statistics .stats-grid {
     grid-template-columns: 1fr;
-  }
+  } 
+} 
 /* DIGITAL QOGAM — Dark Statistics Dashboard */
 
 section#statistics .stats-grid .stat-card {
@@ -878,7 +879,6 @@ section#statistics .stat-card .progress-fill {
 } 
   #statistics .stat-card {
     padding: 26px;
-  }
 } 
 /* DIGITAL QOGAM — Compact Dashboard */
 
