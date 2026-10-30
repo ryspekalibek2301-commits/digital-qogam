@@ -722,3 +722,52 @@ section h3 {
   transform: translateY(-5px);
   box-shadow: 0 18px 38px rgba(18, 71, 137, 0.16);
 } 
+/* DIGITAL QOGAM — теория карточкалары */
+
+#theory .theory-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  margin-top: 30px;
+}
+
+#theory .theory-card {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(145deg, #ffffff, #edf7ff);
+  border: 1px solid rgba(41, 153, 220, 0.25);
+  border-radius: 22px;
+  padding: 32px;
+  box-shadow: 0 12px 32px rgba(13, 63, 120, 0.09);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#theory .theory-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #0e72c9, #21d4e8);
+}
+
+#theory .theory-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 20px 45px rgba(13, 96, 170, 0.18);
+}
+
+#theory .theory-card h3 {
+  color: #103d79;
+  margin-bottom: 20px;
+}
+
+#theory .theory-card p {
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  #theory .theory-grid {
+    grid-template-columns: 1fr;
+  }
+} 
