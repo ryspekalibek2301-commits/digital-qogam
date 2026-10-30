@@ -917,7 +917,85 @@ section#statistics .stat-card .progress-bar {
   section#statistics .stats-grid .stat-card {
     padding: 22px !important;
   }
+/* DIGITAL QOGAM — Simulator Design */
 
+#simulator {
+  background: linear-gradient(145deg, #0a1c36, #12345c);
+  color: #ffffff;
+  border-radius: 28px;
+  padding: 60px 6%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+#simulator h2 {
+  color: #ffffff;
+  font-size: clamp(28px, 3vw, 42px);
+  margin-bottom: 18px;
+}
+
+#simulator > p {
+  color: #bed2e8;
+  max-width: 750px;
+  line-height: 1.7;
+}
+
+#simulator .simulator-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 32px;
+}
+
+#simulator .simulator-cards button {
+  background: linear-gradient(145deg, #17365c, #1c4977);
+  color: #ffffff;
+  border: 1px solid rgba(85, 211, 255, 0.25);
+  border-radius: 20px;
+  padding: 34px 16px;
+  min-height: 145px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  transition: transform 0.25s ease,
+              background 0.25s ease,
+              box-shadow 0.25s ease;
+}
+
+#simulator .simulator-cards button:hover {
+  transform: translateY(-6px);
+  background: linear-gradient(145deg, #205486, #176aa1);
+  box-shadow: 0 15px 35px rgba(0, 195, 255, 0.18);
+}
+
+#simulator .simulator-cards button:focus-visible {
+  outline: 3px solid #40e4f2;
+  outline-offset: 4px;
+}
+
+#simulator #result {
+  margin-top: 28px;
+  color: #ffffff;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  #simulator {
+    padding: 35px 20px;
+    border-radius: 20px;
+  }
+
+  #simulator .simulator-cards {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  #simulator .simulator-cards button {
+    min-height: 75px;
+    padding: 20px;
+  }
+} 
   section#statistics .stat-card .stat-number {
     font-size: 38px !important;
   }
