@@ -1120,3 +1120,67 @@ section#simulator div#result:empty {
     font-size: 22px;
   }
 } 
+/* DIGITAL QOGAM — Four Step Model */
+
+#solution .model-steps {
+  margin: 32px 0 38px;
+}
+
+#solution .model-steps > h3 {
+  color: #123b70;
+  font-size: 23px;
+  margin-bottom: 24px;
+}
+
+#solution .steps-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+#solution .step-card {
+  background: #ffffff;
+  border: 1px solid #d5e5f6;
+  border-radius: 18px;
+  padding: 24px 20px;
+  box-shadow: 0 8px 24px rgba(15, 55, 100, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+#solution .step-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 30px rgba(15, 55, 100, 0.12);
+}
+
+#solution .step-number {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 800;
+  color: #119ac6;
+  margin-bottom: 16px;
+}
+
+#solution .step-card h4 {
+  color: #123b70;
+  font-size: 17px;
+  margin: 0 0 12px;
+}
+
+#solution .step-card p {
+  color: #526b88;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 1000px) {
+  #solution .steps-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  #solution .steps-grid {
+    grid-template-columns: 1fr;
+  }
+} 
