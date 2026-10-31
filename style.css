@@ -1292,3 +1292,210 @@ section#simulator div#result:empty {
     padding: 24px;
   }
 }
+
+/* DIGITAL QOGAM — Research Hub */
+
+#methodology .methodology-heading {
+  max-width: 900px;
+  margin-bottom: 30px;
+}
+
+#methodology .methodology-label {
+  display: inline-block;
+  color: #079bc8;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.6px;
+  margin-bottom: 12px;
+}
+
+#methodology .methodology-heading h2 {
+  color: #103c75;
+  font-size: clamp(30px, 3.5vw, 46px);
+  line-height: 1.2;
+  margin: 0 0 18px;
+}
+
+#methodology .methodology-heading p {
+  color: #526b88;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+#methodology .methodology-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 42px;
+}
+
+#methodology .methodology-stats > div {
+  background: #123b70;
+  color: #fff;
+  border-radius: 18px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#methodology .methodology-stats strong {
+  font-size: 36px;
+  color: #54d7f0;
+  line-height: 1;
+}
+
+#methodology .methodology-stats span {
+  font-size: 14px;
+  color: #e2efff;
+}
+
+#methodology .methodology-subtitle {
+  color: #103c75;
+  font-size: 26px;
+  margin-bottom: 24px;
+}
+
+#methodology .method-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+#methodology .method-card {
+  background: #fff;
+  border: 1px solid #d6e6f7;
+  border-radius: 22px;
+  padding: 30px;
+  box-shadow: 0 10px 28px rgba(13, 51, 98, .06);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+#methodology .method-card:hover,
+#methodology .source-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 35px rgba(13, 51, 98, .12);
+}
+
+#methodology .method-number,
+#methodology .source-number {
+  color: #079bc8;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+}
+
+#methodology .method-icon,
+#methodology .source-icon {
+  font-size: 32px;
+  margin: 18px 0;
+}
+
+#methodology .method-card h3 {
+  color: #103c75;
+  font-size: 22px;
+  margin: 0 0 14px;
+}
+
+#methodology .method-card p,
+#methodology .source-card p {
+  color: #526b88;
+  font-size: 16px;
+  line-height: 1.75;
+  margin: 0;
+}
+
+#methodology .sources-heading {
+  margin: 56px 0 24px;
+}
+
+#methodology .sources-heading h3 {
+  color: #103c75;
+  font-size: 28px;
+  margin: 0 0 10px;
+}
+
+#methodology .sources-heading p {
+  color: #526b88;
+  font-size: 16px;
+}
+
+#methodology .sources-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+#methodology .source-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #d6e6f7;
+  border-radius: 20px;
+  padding: 26px;
+  box-shadow: 0 8px 26px rgba(13, 51, 98, .06);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+#methodology .source-card h4 {
+  color: #103c75;
+  font-size: 20px;
+  margin: 0 0 12px;
+}
+
+#methodology .source-card a {
+  display: inline-block;
+  margin-top: auto;
+  padding-top: 22px;
+  color: #087db6;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#methodology .source-card a:hover {
+  text-decoration: underline;
+}
+
+#methodology .research-note {
+  margin-top: 32px;
+  padding: 30px;
+  background: #e6f2ff;
+  border-left: 5px solid #087db6;
+  border-radius: 18px;
+}
+
+#methodology .note-label {
+  color: #087db6;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.4px;
+}
+
+#methodology .research-note h3 {
+  color: #103c75;
+  margin: 14px 0;
+  font-size: 23px;
+}
+
+#methodology .research-note p {
+  color: #31577e;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  #methodology .sources-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  #methodology .method-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #methodology .methodology-stats {
+    grid-template-columns: 1fr;
+  }
+}
