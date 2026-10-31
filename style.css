@@ -2141,3 +2141,43 @@ footer::before {
     padding: 24px;
   }
 }
+/* AI Audit — Prompt Card */
+
+.audit-prompt-example {
+  margin-top: 28px;
+  margin-bottom: 36px;
+  padding: 28px 30px;
+  background: #f7faff;
+  border: 1px solid #dce7f5;
+  border-left: 4px solid #2563eb;
+  border-radius: 18px;
+  box-shadow: 0 8px 28px rgba(15, 23, 42, 0.05);
+}
+
+.audit-prompt-example h3 {
+  margin: 12px 0 20px;
+  color: #102a50;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.audit-prompt-example p {
+  margin: 12px 0;
+  color: #475569;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.audit-prompt-example strong {
+  color: #173b70;
+}
+
+@media (max-width: 600px) {
+  .audit-prompt-example {
+    padding: 22px 20px;
+  }
+
+  .audit-prompt-example h3 {
+    font-size: 19px;
+  }
+}
