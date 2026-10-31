@@ -1499,3 +1499,242 @@ section#simulator div#result:empty {
     grid-template-columns: 1fr;
   }
 }
+
+/* DIGITAL QOGAM — AI Transparency Dashboard */
+
+#ai-audit .audit-heading {
+  max-width: 950px;
+  margin-bottom: 32px;
+}
+
+#ai-audit .audit-label {
+  display: inline-block;
+  color: #079bc8;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+}
+
+#ai-audit .audit-heading h2 {
+  color: #103c75;
+  font-size: clamp(30px, 3.5vw, 46px);
+  line-height: 1.2;
+  margin: 0 0 20px;
+}
+
+#ai-audit .audit-heading p {
+  color: #526b88;
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+#ai-audit .audit-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin: 34px 0;
+}
+
+#ai-audit .audit-summary-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #123b70;
+  color: #e5f1ff;
+  padding: 26px;
+  border-radius: 20px;
+  box-shadow: 0 10px 26px rgba(12, 49, 94, .12);
+}
+
+#ai-audit .audit-summary-icon {
+  font-size: 27px;
+}
+
+#ai-audit .audit-summary-card strong {
+  color: #54d7f0;
+  font-size: 36px;
+  line-height: 1.1;
+}
+
+#ai-audit .audit-summary-card > span:last-child {
+  font-size: 15px;
+}
+
+#ai-audit .audit-responsibility {
+  padding: 30px 34px;
+  background: linear-gradient(110deg, #e5f3ff, #e0f9ff);
+  border-left: 5px solid #0b83c6;
+  border-radius: 20px;
+  margin-bottom: 48px;
+}
+
+#ai-audit .audit-tag {
+  display: inline-block;
+  color: #087db6;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.4px;
+}
+
+#ai-audit .audit-responsibility h3 {
+  color: #103c75;
+  font-size: 24px;
+  margin: 14px 0;
+}
+
+#ai-audit .audit-responsibility p {
+  color: #31577e;
+  font-size: 17px;
+  line-height: 1.75;
+  margin: 0;
+}
+
+#ai-audit .audit-journal-heading {
+  margin-bottom: 24px;
+}
+
+#ai-audit .audit-journal-heading h3,
+#ai-audit .audit-errors-heading h3 {
+  color: #103c75;
+  font-size: 27px;
+  margin: 0 0 12px;
+}
+
+#ai-audit .audit-journal-heading p {
+  color: #526b88;
+  font-size: 17px;
+}
+
+#ai-audit .audit-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+#ai-audit .audit-buttons button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 96px;
+  text-align: left;
+  background: #e4f1ff;
+  color: #103c75;
+  border: 1px solid #bcd9f7;
+  border-radius: 18px;
+  padding: 22px;
+  cursor: pointer;
+  transition: transform .25s ease, background .25s ease;
+}
+
+#ai-audit .audit-buttons button:hover {
+  transform: translateY(-4px);
+  background: #d2eaff;
+}
+
+#ai-audit .audit-buttons button span {
+  font-size: 28px;
+  font-weight: 800;
+  color: #079bc8;
+}
+
+#ai-audit .audit-buttons button strong {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+#ai-audit #audit-result:not(:empty) {
+  background: #ffffff;
+  border: 1px solid #d6e6f7;
+  border-radius: 20px;
+  padding: 28px;
+  margin: 24px 0 42px;
+  box-shadow: 0 10px 28px rgba(13, 51, 98, .06);
+}
+
+#ai-audit .audit-errors-heading {
+  margin: 46px 0 24px;
+}
+
+#ai-audit .audit-errors-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+#ai-audit .audit-error-card {
+  background: #fff;
+  border: 1px solid #d6e6f7;
+  border-radius: 22px;
+  padding: 30px;
+  box-shadow: 0 10px 28px rgba(13, 51, 98, .06);
+}
+
+#ai-audit .audit-error-number {
+  color: #079bc8;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+}
+
+#ai-audit .audit-error-card h4 {
+  color: #103c75;
+  font-size: 21px;
+  margin: 18px 0 14px;
+}
+
+#ai-audit .audit-error-card p {
+  color: #526b88;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+#ai-audit .audit-fix {
+  background: #e9f8f5;
+  border-left: 4px solid #14a88b;
+  border-radius: 12px;
+  padding: 18px;
+  color: #245b54;
+  font-size: 15px;
+  line-height: 1.65;
+  margin-top: 20px;
+}
+
+#ai-audit .audit-warning {
+  background: #fff5e6;
+  border-left: 5px solid #e3a032;
+  border-radius: 16px;
+  padding: 26px 30px;
+  margin-top: 30px;
+}
+
+#ai-audit .audit-warning strong {
+  color: #7b4c12;
+  font-size: 19px;
+}
+
+#ai-audit .audit-warning p {
+  color: #805c2b;
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 12px 0 0;
+}
+
+#ai-audit .audit-footer {
+  color: #526b88;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-top: 24px;
+}
+
+@media (max-width: 800px) {
+  #ai-audit .audit-summary,
+  #ai-audit .audit-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  #ai-audit .audit-errors-grid {
+    grid-template-columns: 1fr;
+  }
+}
