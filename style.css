@@ -1184,3 +1184,111 @@ section#simulator div#result:empty {
     grid-template-columns: 1fr;
   }
 } 
+
+/* DIGITAL QOGAM — Research Section */
+
+#research .research-heading {
+  max-width: 900px;
+  margin-bottom: 38px;
+}
+
+#research .research-label {
+  display: inline-block;
+  color: #089ac5;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 14px;
+}
+
+#research .research-heading h2 {
+  color: #103c75;
+  font-size: clamp(30px, 3.5vw, 46px);
+  line-height: 1.2;
+  margin: 0 0 22px;
+}
+
+#research .research-heading p {
+  color: #506b8d;
+  font-size: 19px;
+  line-height: 1.8;
+}
+
+#research .research-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+#research .research-card {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #d5e5f6;
+  border-radius: 22px;
+  padding: 32px;
+  box-shadow: 0 10px 30px rgba(12, 49, 94, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+#research .research-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 38px rgba(12, 49, 94, 0.12);
+}
+
+#research .research-icon {
+  display: block;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+#research .research-number {
+  display: block;
+  color: #0b9bc5;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.4px;
+  margin-bottom: 12px;
+}
+
+#research .research-card h3 {
+  color: #103c75;
+  font-size: 23px;
+  margin: 0 0 14px;
+}
+
+#research .research-card p {
+  color: #526b88;
+  font-size: 17px;
+  line-height: 1.75;
+  margin: 0;
+}
+
+#research .research-conclusion {
+  margin-top: 28px;
+  padding: 28px 32px;
+  background: #e3f2fc;
+  border-left: 5px solid #0a9bc8;
+  border-radius: 16px;
+}
+
+#research .research-conclusion strong {
+  color: #103c75;
+  font-size: 20px;
+}
+
+#research .research-conclusion p {
+  color: #31577e;
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 12px 0 0;
+}
+
+@media (max-width: 700px) {
+  #research .research-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #research .research-card {
+    padding: 24px;
+  }
+}
